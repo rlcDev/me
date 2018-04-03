@@ -1,0 +1,16 @@
+.titleCategoryStyle{
+    display : inline-block;
+    color : white;
+    font-size: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition : 0.5s;
+}
+
+.titleCategoryStyle:hover{
+    cursor: pointer;
+    color: rgb(179, 179, 179);
+    text-decoration: underline;
+    transition : 0.5s;
+
+}

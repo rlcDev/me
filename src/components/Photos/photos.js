@@ -29,7 +29,7 @@ const titleStyle = {
 }
 
 const galleryContainer = {
-    width : '97%',
+    width : '96%',
     height : '100%',
     marginLeft : '2%'
 }

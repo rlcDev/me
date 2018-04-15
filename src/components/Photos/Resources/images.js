@@ -1,110 +1,88 @@
+import SaintLeu from '../../../Photos/SaintLeu.JPG'
+import Rose from '../../../Photos/Rose.JPG'
+import Art from '../../../Photos/Art.jpg'
+import Colmar from '../../../Photos/Colmar.JPG'
+import Montmate from '../../../Photos/Montmarte.JPG'
+import Quinquina from '../../../Photos/Quinquina.JPG'
+import RoseRose from '../../../Photos/RoseRose.JPG'
+import Strasbourg from '../../../Photos/Strasbourg.JPG'
+import Clover from '../../../Photos/4LeafClover.JPG'
+
+
+
+
 const IMAGES =
 [{
-        src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+        src: SaintLeu,
+        thumbnail: SaintLeu,
         thumbnailWidth: 320,
-        thumbnailHeight: 174,
-        caption: "After Rain (Jeshu John - designerspics.com)"
+        thumbnailHeight: 212,
+        tags: [{value: "Réunion Island", title: "Réunion Island"}],
+        caption: "Saint-Leu (@rlcdev)"
 },
 {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+        src: Rose,
+        thumbnail: Rose,
         thumbnailWidth: 320,
         thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
+        tags: [{value: "Flower", title: "Rose"}],
+        caption: "Rose (@rlcdev)"
 },
 {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
+        src: Art,
+        thumbnail: Art,
         thumbnailWidth: 320,
         thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
-},{
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
+        tags: [{value: "974", title: "974"}],
+        caption: "Art (@rlcdev)"
 },
-
 {
-        src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-        thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
+        src: Colmar,
+        thumbnail: Colmar,
         thumbnailWidth: 320,
-        thumbnailHeight: 212
+        thumbnailHeight: 212,
+        tags: [{value: "Colmar", title: "Colmar"}],
+        caption: "Christmas (@rlcdev)"
+},
+{
+        src: Montmate,
+        thumbnail: Montmate,
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        tags: [{value: "Montmarte", title: "Monmarte"}],
+        caption: "Montmarte-Paris (@rlcdev)"
+},
+{
+        src: Quinquina,
+        thumbnail: Quinquina,
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        tags: [{value: "974 river", title: "974 river"}],
+        caption: "Quinquina river (@rlcdev)"
+},
+{
+        src: RoseRose,
+        thumbnail: RoseRose,
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        tags: [{value: "Rose", title: "Rose"}],
+        caption: "Just another rose (@rlcdev)"
+},
+{
+        src: Strasbourg,
+        thumbnail: Strasbourg,
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        tags: [{value: "Strasbourg", title: "Strasbourg"}],
+        caption: "Strasbourg (@rlcdev)"
+},
+{
+        src: Clover,
+        thumbnail: Clover,
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        tags: [{value: "Clover", title: "Clover"}],
+        caption: "4 leaf clover (@rlcdev)"
 }]
 
 export default IMAGES;

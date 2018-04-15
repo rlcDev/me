@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import MyHeader from './components/MyHeader/MyHeader';
-import MyFooter from './components/MyFooter/MyFooter';
-import Content from './components/Content'
+import BasePage from './basePage/basePage'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <MyHeader/>
-        <Content/>
-        <MyFooter/>
+        <BasePage/>
       </div>
     );
   }

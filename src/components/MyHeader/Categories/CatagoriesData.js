@@ -1,18 +1,25 @@
+import AboutMe from '../../AboutMe/aboutMe'
+import Photos from '../../Photos/photos'
+
 export const CategoriesData = [
     {
         key : 0,
-        hasLink : false,        
+        path : '/aboutMe',
+        hasLink : false,
+        component : AboutMe,    
         title : "About me"
     },
     {
         key : 1,
+        path : '/photos',
+        component : Photos,
         hasLink : false,
         title : "Photos"
     },
     {
         key : 2,
         hasLink : true,
-        link : "https://public.rlcdev.fr",
+        link : "http://public.rlcdev.fr",
         title : "Projets"
     }
 ];

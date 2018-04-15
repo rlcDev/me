@@ -5,12 +5,23 @@
     margin-left: 5px;
     margin-right: 5px;
     transition : 0.5s;
+    text-decoration: unset;
+    font-weight: lighter;
+    outline: none;
 }
 
 .titleCategoryStyle:hover{
     cursor: pointer;
-    color: rgb(179, 179, 179);
-    text-decoration: underline;
+    color: rgb(3, 92, 33);
+    /*text-decoration: underline;*/
     transition : 0.5s;
 
+}
+
+.LinkStyle{
+    outline: none;
+}
+
+.titleCategoryStyle:focus{
+    color: rgb(138, 0, 0);
 }

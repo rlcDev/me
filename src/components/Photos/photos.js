@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
-class Content extends Component {
+
+class Photos extends Component {
 
 render(){
     return(
         <div>
+        <p>photos</p>
         </div>      
     );
 }
 
 }
-export default Content;
+export default Photos;

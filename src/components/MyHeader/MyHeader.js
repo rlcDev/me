@@ -5,33 +5,35 @@ class MyHeader extends Component {
 
     render() {
         return (
-                <div style={divStyle}>
+            <div style={divStyle}>
+                <a href="http://me.rlcdev.fr">
                     <p style={nameStyle}>@rlcdev</p>
-                    <Categories />
-                </div>
+                </a>
+                <Categories />
+            </div>
         );
     }
 }
 
 const divStyle = {
     minWidth: '400px',
-    padding :'0px',
-    margin : '0px',
-    position : 'fixed',
-    top:'0px',
+    padding: '0px',
+    margin: '0px',
+    position: 'fixed',
+    top: '0px',
     width: '100%',
     height: '60px',
     textAlign: 'right',
     backgroundColor: '#084651',
-    zIndex : '99',
+    zIndex: '99',
 }
 
 const nameStyle = {
-    color : 'white',
+    color: 'white',
     float: 'left',
     fontWeight: 'lighter',
-    fontSize: '22px', 
-    cursor : 'pointer'
+    fontSize: '22px',
+    cursor: 'pointer'
 
 }
 

@@ -21,6 +21,7 @@ render(){
 export default AboutMe;
 
  const ArticlesContainer = {
+     minWidth : '800px',
      marginTop : '70px', // Header fixed
      marginLeft : '50%',
      width : '50%',

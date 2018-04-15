@@ -43,7 +43,7 @@ const articleCoreStyle ={
 const imageStyle = (position)  =>{
     return {
     width : 'auto',
-    height : '300px',
+    height : '250px',
     marginLeft: '2%',
     float : position,
     marginRight : '10px'

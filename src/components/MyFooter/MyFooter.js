@@ -29,7 +29,7 @@ const BandStyle = {
     bottom : '0px',
     width : '100%',
     height : '40px',
-    backgroundColor : '#536a7a',
+    backgroundColor : '#084651',
     textAlign : 'center',
 
 }

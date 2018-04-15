@@ -13,10 +13,15 @@ class MyHeader extends Component {
 }
 
 const divStyle = {
+    padding :'0px',
+    margin : '0px',
+    position : 'fixed',
+    top:'0px',
     width: '100%',
     height: '60px',
     textAlign: 'right',
-    backgroundColor: '#536a7a'
+    backgroundColor: '#084651',
+    zIndex : '99'
 }
 
 

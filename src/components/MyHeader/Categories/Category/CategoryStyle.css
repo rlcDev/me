@@ -2,8 +2,8 @@
     display : inline-block;
     color : white;
     font-size: 22px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     transition : 0.5s;
     text-decoration: unset;
     font-weight: lighter;
@@ -12,7 +12,7 @@
 
 .titleCategoryStyle:hover{
     cursor: pointer;
-    color: rgb(3, 92, 33);
+    color: rgb(170, 170, 170);
     /*text-decoration: underline;*/
     transition : 0.5s;
 
@@ -23,5 +23,5 @@
 }
 
 .titleCategoryStyle:focus{
-    color: rgb(138, 0, 0);
+    color: rgba(82, 13, 13, 0.829);
 }

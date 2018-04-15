@@ -24,7 +24,7 @@ const AboutMeContent = [
         image : raspberryPi,
         title: 'Raspberry Pi',
         text: 'This website runs on a Raspberry Pi 3B. I\'m loving this SBC because you can do everything you want with it. I specially use it as a web server for all my android apps'+
-        ', launching ROMs builds, as media streaming, as NAS and with a DAC with Volumio as a music server...'
+        ', launching ROMs builds, as a media streamer, as a NAS, as a private cloud and with a DAC with Volumio as a music server...'
     },
     {
         hasImage : true,

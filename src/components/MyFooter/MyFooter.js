@@ -31,7 +31,6 @@ const BandStyle = {
     height : '40px',
     backgroundColor : '#084651',
     textAlign : 'center',
-
 }
 
 export default MyFooter;

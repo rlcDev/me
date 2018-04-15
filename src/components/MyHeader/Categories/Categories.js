@@ -1,4 +1,4 @@
-import { CategoriesData } from './CatagoriesData';
+import { CategoriesData } from './CategoriesData';
 import Category from './Category/Category';
 
 export default function Categories() {

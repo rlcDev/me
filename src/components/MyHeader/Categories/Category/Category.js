@@ -11,9 +11,7 @@ export default function Category(props) {
                 <p className="titleCategoryStyle" >{props.title}</p>
             </a>
     } else {
-        categoryComponent =
-            <Link className="titleCategoryStyle" to={props.path}>{props.title}</Link>
-
+        categoryComponent = <Link className="titleCategoryStyle" to={props.path}>{props.title}</Link>
     }
     return (categoryComponent);
 }

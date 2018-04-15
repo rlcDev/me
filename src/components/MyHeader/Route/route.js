@@ -1,11 +1,17 @@
 import React from 'react'
-import {CategoriesData} from '../Categories/CatagoriesData'
-import {Route} from 'react-router-dom'
+import { CategoriesData } from '../Categories/CategoriesData'
+import { Route } from 'react-router-dom'
 
-export function routes(){
+export function routes() {
     return (
-        CategoriesData.map(  (elt)=> {
-        return(<Route path={elt.path} component={elt.component}/>)
-    })
+        CategoriesData.map((elt) => {
+            let route ;
+            if(elt.title === ""){
+                route = <Route exact path={elt.path} component={elt.component} />
+            } else {
+                route = <Route path={elt.path} component={elt.component} />
+            }
+            return (route)
+        })
     )
 }

@@ -21,9 +21,7 @@ const divStyle = {
     height: '60px',
     textAlign: 'right',
     backgroundColor: '#084651',
-    zIndex : '99'
+    zIndex : '99',
 }
-
-
 
 export default MyHeader;

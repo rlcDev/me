@@ -26,4 +26,4 @@ class BasePage extends Component {
     }
 
 }
-export default BasePage;
+export default BasePage; 

@@ -13,6 +13,7 @@ render(){
                     return(Article(elt))
                 })
             }
+            <p style={moreStyle}>Want to know more, making a project ? Ask me </p>
         </div>      
     );
   }
@@ -25,4 +26,8 @@ export default AboutMe;
      width : '50%',
      marginBottom : '50px', // get some space
      transform : 'translate(-50%)'
+ }
+
+ const moreStyle ={
+     textAlign : 'center'
  }

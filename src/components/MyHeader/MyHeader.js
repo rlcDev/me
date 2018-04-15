@@ -13,6 +13,7 @@ class MyHeader extends Component {
 }
 
 const divStyle = {
+    minWidth: '400px',
     padding :'0px',
     margin : '0px',
     position : 'fixed',

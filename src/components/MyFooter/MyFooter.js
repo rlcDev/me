@@ -25,6 +25,7 @@ const CopyrightStyle ={
 }
 
 const BandStyle = {
+    minWidth: '400px',
     position : 'fixed',
     bottom : '0px',
     width : '100%',

@@ -28,6 +28,7 @@ const titleSyle = {
 }
 
 const textStyle = {
+    textIndent : '10px',
     marginLeft: '2%',
     textAlign: 'justify',
     wordWrap: 'break-word'

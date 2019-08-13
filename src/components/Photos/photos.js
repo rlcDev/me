@@ -10,7 +10,7 @@ class Photos extends Component {
             <div style={photosContainer}>
                 <h2 style={titleStyle} >Some photos... </h2>
                 <div style={galleryContainer}>
-                    <Gallery images={IMAGES} />
+                    {/* <Gallery images={IMAGES} /> */}
                 </div>
             </div>
         );
